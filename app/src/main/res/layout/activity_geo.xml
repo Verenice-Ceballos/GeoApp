@@ -14,10 +14,11 @@ tools:context="vereniceceballoszubieta.android.geoapp.GeoActivity">
 
 
 <TextView
+    android:id="@+id/texto_pregunta"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="24dp"
-    android:text="@string/texto_pregunta"/>
+    android:text="@string/texto_pregunta_1"/>
 
 <LinearLayout
     android:layout_width="wrap_content"
@@ -38,6 +39,13 @@ tools:context="vereniceceballoszubieta.android.geoapp.GeoActivity">
 
 
 </LinearLayout>
+    <Button
+        android:id="@+id/boton_siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/texto_boton_siguiente"
+        android:layout_gravity="center"/>
+
 
 </LinearLayout>
 
